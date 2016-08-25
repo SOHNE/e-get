@@ -19,12 +19,12 @@ $ wget -O- https://sohne.com.br/sh/install_e-get.sh | sh
 ```
 ####Manual por intermédio da clonagem do git
 - Faça a clonagem do git
- - ```$git clone https://github.com/SOHNE/e-get.git```
+ - ```$ git clone https://github.com/SOHNE/e-get.git```
 - Entre no diretório do git
- - ```$cd e-get```
+ - ```$ cd e-get```
 - Execute os códigos:
- - ```sudo chmod +x e-get```
- - ```sudo cp e-get /usr/bin```
+ - ```$ sudo chmod +x e-get```
+ - ```$ sudo cp e-get /usr/bin```
 
 ----------
 
