@@ -1,4 +1,4 @@
-e-get
+SOHNE | e-get
 ===================
 
 [![e-get n' SOHNE logo](https://sohne.com.br/img/sohne_e-get.png)](https://sohne.com.br/e-get)
