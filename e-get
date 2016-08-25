@@ -1,0 +1,19 @@
+#!/bin/bash
+{
+echo "#Para cancelar a operação, pressione Ctrl + C"
+sudo -k
+echo ">Analisando todos os repositorios:"
+sudo apt-get update
+echo ">Atualizando os pacotes, se possivel:"
+sudo apt-get upgrade
+echo ">Atualizando os pacotes base do SO:"
+sudo do-release-upgrade
+echo ">Analisando pacotes que não são mais requeridos pelo SO:"
+sudo apt-get autoremove
+echo ">Analisando as versoes antigas do repositório local(.deb):"
+sudo apt-get autoclean
+#sudo apt-get clean
+echo ">Analisando erros no gerenciador de pacotes:"
+sudo dpkg --configure -a
+sudo apt-get install -f
+}
